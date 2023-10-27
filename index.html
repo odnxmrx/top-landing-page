@@ -9,7 +9,7 @@
 <body>
     <!-- <h1>Hello world!</h1> -->
     <nav>
-        <ul class="myMenu">
+        <ul class="myMenu boxed-container">
             <li class="myLogo"><a href="#">Armandev</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Contact</a></li>
@@ -17,25 +17,58 @@
     </nav>
 
     <header class="myHeader">
-        <div class="leftHeader">
-            <h1>
+        <div class="boxed-container">
+
+            <div class="leftHeader">
+                <h1>
                 This website is awesome!
             </h1>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores sapiente magnam et accusantium id magni harum alias, doloribus beatae fugiat qui perspiciatis.
             </p>
             <button class="myCtaBtn">Know more</button>
-
+            
         </div>
-
+        
         <div class="rightHeader">
             <img class="heroImg" src="./img/chica-encantadora-camiseta-ligera-escuchando-musica-sosteniendo-telefono.png" alt="chica-encantadora-camiseta-ligera-escuchando-musica-sosteniendo-telefono">
             <!-- img by https://www.freepik.es/foto-gratis/chica-encantadora-camiseta-ligera-escuchando-musica-sosteniendo-telefono_15696994.htm#page=2&query=headset&position=8&from_view=search&track=sph -->
         </div>
+    </div>
     </header>
 
-    <main>
+    <main class="">
         
+        <h2>Top Spotify Playlists</h2>
+        <p>These are my most recent favourites</p>
+        
+        <div class="boxed-container myContainer">
+            <div class="myCard">
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0cjbbB9FN8amcP41wi1i7S?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+                
+            </div>
+            
+            <div class="myCard">
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/7tDIgAnuryLtZrbX9y17zC?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                
+            </div>
+            
+            <div class="myCard">
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0K1yZUVZSR3rgjOW3dCbER?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                
+            </div>
+            
+        </div>
     </main>
+
+    <div class="myQuote">
+        <div class="boxed-container">
+            <q>
+                If you can imagine it, you can create it.
+            </q>
+        </div>
+    </div>
+
 </body>
 </html>
