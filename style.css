@@ -154,3 +154,32 @@ main > p {
 q {
     margin: auto;
 }
+
+
+
+
+
+
+/**responsive try*/
+
+@media only screen and (max-width: 768px) {
+
+    .boxed-container {
+        flex-direction: column;
+        max-width: 90vh;
+        height: inherit;
+    }
+
+    .rightHeader {
+        display: none;
+    }
+
+    .leftHeader {
+        display: flex;
+        flex: 0;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
