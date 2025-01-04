@@ -5,12 +5,8 @@
 }
 
 body {
-  /* padding: 10px 40px; */
-  /* background-color: #a0a0a0; */
-  /* max-width: 1000px; */
   display: flex;
   flex-direction: column;
-  /* width: 90%; */
   margin: 0 auto;
 }
 
@@ -26,7 +22,6 @@ body {
 
 nav {
   padding: 15px 0px;
-  /* background-color: aqua; */
 }
 
 h1,
@@ -152,8 +147,6 @@ main > p {
 .fullSection {
   height: 40vh;
   display: flex;
-  /* justify-content: center;
-    align-items: center; */
 }
 
 .fullSection .myCta {
