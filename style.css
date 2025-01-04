@@ -1,185 +1,196 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-family: 'Courier New', Courier, monospace;
+  margin: 0;
+  padding: 0;
+  font-family: "Courier New", Courier, monospace;
 }
 
 body {
-    /* padding: 10px 40px; */
-    /* background-color: #a0a0a0; */
-    /* max-width: 1000px; */
-    display: flex;
-    flex-direction: column;
-    /* width: 90%; */
-    margin: 0 auto;
+  /* padding: 10px 40px; */
+  /* background-color: #a0a0a0; */
+  /* max-width: 1000px; */
+  display: flex;
+  flex-direction: column;
+  /* width: 90%; */
+  margin: 0 auto;
 }
 
 /********comodin contenedor*/
 .boxed-container {
-    display: flex;
-    margin-right: auto;
-    margin-left: auto;
-    position: relative;
-    max-width: 1000px;
-    height: inherit;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  max-width: 1000px;
+  height: inherit;
 }
 
 nav {
-    padding: 15px 0px;
-    /* background-color: aqua; */
+  padding: 15px 0px;
+  /* background-color: aqua; */
 }
 
-h1, h2, h3, h4, p, button {
-    color: white;
+h1,
+h2,
+h3,
+h4,
+p,
+button {
+  color: white;
 }
 
 .myMenu {
-    list-style-type: none;
-    display: flex;
-    gap: 28px;
+  list-style-type: none;
+  display: flex;
+  gap: 28px;
 }
 
 .myLogo {
-    margin-right: auto;
-    margin-right: auto;
+  margin-right: auto;
+  margin-right: auto;
 }
 
 .myLogo a {
-    font-size: 1.125rem;
-    font-weight: 900;
+  font-size: 1.125rem;
+  font-weight: 900;
 }
 
 ul a {
-    text-decoration: none;
-    color: inherit;
-    font-size: 0.875rem;
+  text-decoration: none;
+  color: inherit;
+  font-size: 0.875rem;
 }
 
 /********/
 .myHeader {
-    display: flex;
-    align-items: center;
-    height: 70vh;
-    background-color: #1f2937;
+  display: flex;
+  align-items: center;
+  height: 70vh;
+  background-color: #1f2937;
 }
 
 h1 {
-    font-size: 48px;
+  font-size: 48px;
 }
 
 .leftHeader {
-    flex: 1;
-    margin: auto;
+  flex: 1;
+  margin: auto;
 }
 
 .rightHeader {
-    display: flex;
-    flex: 2;
-    height: inherit;
-    justify-content: center;
-    align-items: flex-end;
+  display: flex;
+  flex: 2;
+  height: inherit;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 .heroImg {
-    height: 350px;
-    width: auto;
-    /* make it undraggable */
-    pointer-events: none;
-    user-drag: none;
-    -webkit-user-drag: none;
-    user-select: none;
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-
+  height: 350px;
+  width: auto;
+  /* make it undraggable */
+  pointer-events: none;
+  user-drag: none;
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 
 .myCtaBtn {
-    margin: 20px 0px;
-    padding-left: 33px;
-    padding-right: 33px;
-    padding-bottom: 16px;
-    padding-top: 16px;
-    border-radius: 9px;
-    background: #3882f6; /*d5f365*/
-    border: none;
-    font-family: inherit;
-    text-align: center;
-    cursor: pointer;
-    transition: 0.4s;
+  margin: 20px 0px;
+  padding-left: 33px;
+  padding-right: 33px;
+  padding-bottom: 16px;
+  padding-top: 16px;
+  border-radius: 9px;
+  background: #3882f6; /*d5f365*/
+  border: none;
+  font-family: inherit;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.4s;
 }
 
 .myCtaBtn:hover {
-    box-shadow: 7px 5px 56px -14px #003893;
+  box-shadow: 7px 5px 56px -14px #003893;
 }
 
 .myCtaBtn:active {
-    transform: scale(0.97);
-    box-shadow: 7px 5px 56px -10px #003893;
+  transform: scale(0.97);
+  box-shadow: 7px 5px 56px -10px #003893;
 }
 
 /********** cards*/
 
 main {
-    background-color: #344050;
+  background-color: #344050;
+  padding: 20px 0;
 }
 
 h2 {
-    font-size: 36px;
-    text-align: center;
-    margin-top: 20px;
+  font-size: 36px;
+  text-align: center;
+  margin-top: 20px;
 }
 
 main > p {
-    text-align: center;
+  text-align: center;
 }
 
 .myContainer {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: space-around;
-    padding: 20px
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+  padding: 20px;
 }
 
 /*********** quote */
 
-.myQuote{
-    height: 40vh;
-    display: flex;
-    /* justify-content: center;
+.fullSection {
+  height: 40vh;
+  display: flex;
+  /* justify-content: center;
     align-items: center; */
 }
 
-q {
-    margin: auto;
+.fullSection .myCta {
+  background-color: #344050;
 }
 
+.fullSection article {
+  max-width: 450px;
+  margin: auto;
+  padding: 20px;
+  background-color: #3882f6;
+  border-radius: 10px;
+}
 
-
-
-
+q {
+  margin: auto;
+}
 
 /**responsive try*/
 
 @media only screen and (max-width: 768px) {
+  .boxed-container {
+    flex-direction: column;
+    max-width: 90vh;
+    height: inherit;
+  }
 
-    .boxed-container {
-        flex-direction: column;
-        max-width: 90vh;
-        height: inherit;
-    }
+  .rightHeader {
+    display: none;
+  }
 
-    .rightHeader {
-        display: none;
-    }
-
-    .leftHeader {
-        display: flex;
-        flex: 0;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
+  .leftHeader {
+    display: flex;
+    flex: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
 }
