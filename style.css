@@ -187,3 +187,12 @@ q {
     text-align: center;
   }
 }
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 48px;
+  color: #ffffff;
+  background-color: #344050;
+}
